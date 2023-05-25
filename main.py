@@ -250,7 +250,6 @@ while run:
         spawn_new = True
     if bot:
             direction = random.choice(directions)
-            time.sleep(1)
             board_values = take_turn(direction, board_values)
             direction = ''
             spawn_new = True
